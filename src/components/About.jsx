@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { motion } from "framer-motion";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
@@ -6,6 +6,7 @@ import "react-tabs/style/react-tabs.css";
 const About = () => {
   return (
     <motion.div
+   id="about"
       className="max-w-4xl mx-auto p-6"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}

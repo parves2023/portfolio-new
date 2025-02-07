@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 
 const projects = [
   {
@@ -47,7 +47,7 @@ const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   return (
-    <div className="projects-section container mx-auto p-5">
+    <div id="my-works" className="projects-section container mx-auto p-5">
       <h2 className="text-4xl text-center font-bold mb-4">Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2  gap-6">
 

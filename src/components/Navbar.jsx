@@ -1,72 +1,66 @@
-import { Link, NavLink } from "react-router-dom";
-import { ArrowRightCircle, Moon } from "lucide-react";
+
+import { ArrowRightCircle } from "lucide-react";
 import { useState } from "react";
 import { motion } from "framer-motion";
+
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
+
   const navLinks = (
     <ul className="flex flex-col md:flex-row gap-6 md:gap-8 text-lg font-medium">
       <li>
-        <NavLink
-          to="/"
-          className={({ isActive }) =>
-            isActive
-              ? "text-indigo-500 font-semibold"
-              : "hover:text-indigo-500 transition"
-          }
+        <Link
+          to="home"
+          smooth={true}
+          duration={500}
+          className="hover:text-indigo-500 transition"
         >
           Home
-        </NavLink>
+        </Link>
       </li>
       <li>
-        <NavLink
-          to="/all-visas"
-          className={({ isActive }) =>
-            isActive
-              ? "text-indigo-500 font-semibold"
-              : "hover:text-indigo-500 transition"
-          }
+        <Link
+          to="about"
+          smooth={true}
+          duration={500}
+          className="hover:text-indigo-500 transition"
         >
           About Me
-        </NavLink>
+        </Link>
       </li>
       <li>
-        <NavLink
-          to="/add-visa"
-          className={({ isActive }) =>
-            isActive
-              ? "text-indigo-500 font-semibold"
-              : "hover:text-indigo-500 transition"
-          }
+        <Link
+          to="my-skills"
+          smooth={true}
+          duration={500}
+          className="hover:text-indigo-500 transition"
         >
-          Services
-        </NavLink>
+          My Skills
+        </Link>
+      </li>
+
+      <li>
+        <Link
+          to="my-works"
+          smooth={true}
+          duration={500}
+          className="hover:text-indigo-500 transition"
+        >
+          Projects
+        </Link>
       </li>
       <li>
-        <NavLink
-          to="/my-added-visas"
-          className={({ isActive }) =>
-            isActive
-              ? "text-indigo-500 font-semibold"
-              : "hover:text-indigo-500 transition"
-          }
+        <Link
+          to="Contact"
+          smooth={true}
+          duration={500}
+          className="hover:text-indigo-500 transition"
         >
-          My Work
-        </NavLink>
-      </li>
-      <li>
-        <NavLink
-          to="/my-applications"
-          className={({ isActive }) =>
-            isActive
-              ? "text-indigo-500 font-semibold"
-              : "hover:text-indigo-500 transition"
-          }
-        >
-          Testimonials
-        </NavLink>
+          Contact
+        </Link>
       </li>
     </ul>
   );

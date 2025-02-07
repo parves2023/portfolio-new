@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { useTypewriter } from "react-simple-typewriter";
 import { Download, Linkedin, Facebook, Github } from "lucide-react";
 import { motion } from "framer-motion";
@@ -12,11 +12,11 @@ const Hero = () => {
   });
 
   return (
-    <div className="flex container mx-auto overflow-hidden py-10 flex-col-reverse lg:flex-row justify-evenly items-center  my-28 bg-white text-gray-900 px-6 lg:px-20">
+    <div id="home" className="flex container mx-auto overflow-hidden py-10 flex-col-reverse lg:flex-row justify-evenly items-center  my-28 bg-white text-gray-900 px-6 lg:px-20">
       {/* Text Section */}
       <div className="text-center lg:text-left max-w-lg">
         <h1 className="text-4xl font-bold mt-2">
-          Hello, I'm <br /> <span className="text-blue-500 text-6xl">Parves Mosarof</span>
+          Hello, I{`'`}m <br /> <span className="text-blue-500 text-6xl">Parves Mosarof</span>
         </h1>
 
         <p className="text-4xl text-gray-600 mt-4 ">
