@@ -69,8 +69,9 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Image Section */}
-      <motion.div
+ 
+     {/* Image Section */}
+     <motion.div
         className="relative w-80 h-80"
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -78,17 +79,18 @@ const Hero = () => {
       >
         {/* Rotating Border */}
         <motion.div
-          className="absolute inset-0 rounded-full border-4 border-blue-500 animate-spin-slow"
+          className="absolute flex items-center justify-center inset-0 rounded-full border-b-[1rem] border-t-[1rem] p-[9.3rem] border-blue-700 animate-spin-slow"
           style={{
-            background: "conic-gradient(#3b82f6 25%, transparent 25%)",
             animation: "spin 8s linear infinite",
           }}
-        ></motion.div>
+        >
 
+
+        </motion.div>
         <motion.img
           src="https://i.ibb.co/WBhyn7r/185206b4-6d98-4dad-bfce-e2390a05ad8a.jpg"
           alt="Parves Mosarof Portrait"
-          className="w-full h-full object-cover rounded-full border-blue-400 border-b-8 border-r-8   shadow-lg relative z-10"
+          className="w-full h-full object-cover rounded-full    shadow-lg relative z-10"
         />
       </motion.div>
     </div>
