@@ -113,7 +113,7 @@ const Navbar = () => {
           {/* <Moon className="w-6 h-6 cursor-pointer hover:text-gray-500" /> */}
           <motion.button
             whileHover={{ scale: 1.05 }}
-            className="flex items-center  text-xl gap-2 border border-gray-300 px-4 py-2 rounded-full hover:bg-gray-100 transition"
+            className="flex items-center  text-xl gap-2 border border-gray-300 hover:border-blue-700 px-4 py-2 rounded-full hover:bg-gray-100 transition"
           >
             Connect
             <motion.span

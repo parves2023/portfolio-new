@@ -15,14 +15,16 @@ const About = () => {
 
       <div className="flex flex-col lg:flex-row gap-6 items-center">
         {/* Image Section */}
+        <div className="mr-8 md:border-r-4 md:pr-8 border-gray-600">
         <motion.img
           src="https://i.ibb.co/WBhyn7r/185206b4-6d98-4dad-bfce-e2390a05ad8a.jpg"
           alt="Profile Picture"
-          className="w-full max-w-xs lg:w-96 rounded-xl shadow-lg object-cover border-r-8 border-b-8 border-gray-900"
+          className="w-full max-w-xs lg:w-96 rounded-xl shadow-lg object-cover border-r-8 border-b-8 border-blue-800"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         />
+        </div>
 
         {/* Text & Tabs Section */}
         <div className="w-full">
