@@ -30,8 +30,10 @@ const Hero = () => {
         </p>
 
         <div className="flex items-center gap-4 mt-8 justify-center lg:justify-start">
+       
           <motion.a
-            href="#"
+            href="https://drive.google.com/file/d/137lbY14etx6uDYPxEUcmxWLK5RciqQW_/view?usp=sharing"
+            target="_blank"
             className="flex items-center gap-2 bg-blue-500 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-400 transition"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
@@ -39,6 +41,7 @@ const Hero = () => {
             <Download className="w-5 h-5" />
             Download CV
           </motion.a>
+      
 
           <div className="flex gap-4">
             <a
@@ -88,7 +91,7 @@ const Hero = () => {
 
         </motion.div>
         <motion.img
-          src="https://i.ibb.co/WBhyn7r/185206b4-6d98-4dad-bfce-e2390a05ad8a.jpg"
+          src="https://avatars.githubusercontent.com/u/135069947?v=4"
           alt="Parves Mosarof Portrait"
           className="w-full h-full object-cover rounded-full    shadow-lg relative z-10"
         />

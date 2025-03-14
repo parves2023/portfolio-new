@@ -18,7 +18,7 @@ const About = () => {
         {/* Image Section */}
         <div className="mr-8 md:border-r-4 md:pr-8 border-gray-600">
         <motion.img
-          src="https://i.ibb.co/WBhyn7r/185206b4-6d98-4dad-bfce-e2390a05ad8a.jpg"
+          src="https://i.ibb.co/fLWLn77/cfb1bb4b-2bf1-4f75-91d5-bee4757d0d51.jpg"
           alt="Profile Picture"
           className="w-full max-w-xs lg:w-96 rounded-xl shadow-lg object-cover border-r-8 border-b-8 border-blue-800"
           initial={{ opacity: 0, scale: 0.8 }}
@@ -38,7 +38,7 @@ const About = () => {
           </p>
           <p className="text-gray-600 mb-4">
             Currently, I am in my{" "}
-            <strong>3rd year of an honors management program</strong>, balancing
+            <strong>4th year of an honors management program</strong>, balancing
             my studies with my passion for web development. Every day, I strive
             to <strong>learn and earn</strong>, expanding my skills in frontend
             and backend technologies while building real-world projects.

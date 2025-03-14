@@ -12,6 +12,16 @@ const projects = [
     improvements: 'Enhancing user experience and adding AI-based recommendations.'
   },
   {
+    name: 'Residence Hotel Booking',
+    image: 'https://i.ibb.co.com/5X1KDthN/residensial-hotel.png',
+    stack: ['React', 'Node.js', 'MongoDB','firebase','jwt','tailwind css'],
+    description: 'A modern and user-friendly hotel booking platform.',
+    liveLink: 'https://recidencehotel.netlify.app/',
+    githubLink: 'https://github.com/parves2023/residence-hotel',
+    challenges: 'Implementing a seamless booking experience and responsive design.',
+    improvements: 'Integrating payment gateway and adding user reviews.'
+  },
+  {
     name: 'VisaPilot',
     image: 'https://i.ibb.co.com/LhpSBM6k/visapilot.png',
     stack: ['React', 'Node.js', 'MongoDB','firebase','jwt','express js'],
@@ -31,16 +41,7 @@ const projects = [
     challenges: 'Ensuring engaging gamification features and handling real-time updates.',
     improvements: 'Adding more language options and personalized learning paths.'
   },
-  {
-    name: 'Residence Hotel Booking',
-    image: 'https://i.ibb.co.com/5X1KDthN/residensial-hotel.png',
-    stack: ['React', 'Node.js', 'MongoDB','firebase','jwt','tailwind css'],
-    description: 'A modern and user-friendly hotel booking platform.',
-    liveLink: 'https://recidencehotel.netlify.app/',
-    githubLink: 'https://github.com/parves2023/residence-hotel',
-    challenges: 'Implementing a seamless booking experience and responsive design.',
-    improvements: 'Integrating payment gateway and adding user reviews.'
-  }
+
 ];
 
 const Projects = () => {

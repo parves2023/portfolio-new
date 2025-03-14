@@ -1,13 +1,11 @@
-
 import { ArrowRightCircle } from "lucide-react";
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-import { Link } from 'react-scroll';
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-
 
   const navLinks = (
     <ul className="flex flex-col md:flex-row gap-6 md:gap-8 text-lg font-medium">
@@ -16,7 +14,7 @@ const Navbar = () => {
           to="home"
           smooth={true}
           duration={500}
-          className="hover:text-indigo-500 transition"
+          className="hover:text-indigo-500 hover:cursor-pointer transform transition-all duration-300"
         >
           Home
         </Link>
@@ -26,7 +24,7 @@ const Navbar = () => {
           to="about"
           smooth={true}
           duration={500}
-          className="hover:text-indigo-500 transition"
+          className="hover:text-indigo-500 hover:cursor-pointer transform transition-all duration-300"
         >
           About Me
         </Link>
@@ -36,18 +34,17 @@ const Navbar = () => {
           to="my-skills"
           smooth={true}
           duration={500}
-          className="hover:text-indigo-500 transition"
+          className="hover:text-indigo-500 hover:cursor-pointer transform transition-all duration-300"
         >
           My Skills
         </Link>
       </li>
-
       <li>
         <Link
           to="my-works"
           smooth={true}
           duration={500}
-          className="hover:text-indigo-500 transition"
+          className="hover:text-indigo-500 hover:cursor-pointer transform transition-all duration-300"
         >
           Projects
         </Link>
@@ -57,7 +54,7 @@ const Navbar = () => {
           to="Contact"
           smooth={true}
           duration={500}
-          className="hover:text-indigo-500 transition"
+          className="hover:text-indigo-500 hover:cursor-pointer transform transition-all duration-300"
         >
           Contact
         </Link>
